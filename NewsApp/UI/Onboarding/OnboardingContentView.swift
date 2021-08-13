@@ -17,6 +17,12 @@ struct OnboardingContentView: View,CountrySelection {
     
     var body: some View {
         VStack() {
+
+            NavigationLink("",destination: {
+                VStack {
+                        HomeContentView()
+                }
+            }(), isActive: $viewModel.shouldOpenHome)
             
             Text("Select your country").fontWeight(.regular)
                 .frame(minWidth: 0, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,alignment: .leading).padding(.leading,20).padding(.vertical,12)
