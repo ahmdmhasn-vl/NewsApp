@@ -7,9 +7,9 @@
 
 import Foundation
 
-class NewsCategory : Hashable,Codable {
+class ArticleCategory : Hashable,Codable {
     
-    static func == (lhs: NewsCategory, rhs: NewsCategory) -> Bool {
+    static func == (lhs: ArticleCategory, rhs: ArticleCategory) -> Bool {
         return lhs.id == rhs.id
     }
     

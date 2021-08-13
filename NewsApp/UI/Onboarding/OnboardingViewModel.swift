@@ -10,17 +10,18 @@ import Foundation
 class OnboardingViewModel: ObservableObject {
     
     @Published var categories = [
-        NewsCategory.init(id: 1, title: "Sports"),
-        NewsCategory.init(id: 2, title: "Art"),
-        NewsCategory.init(id: 3, title: "Politics"),
-        NewsCategory.init(id: 4, title: "Fshion"),
-        NewsCategory.init(id: 5, title: "Economics"),
-        NewsCategory.init(id: 6, title: "Cinema")
+        ArticleCategory.init(id: 1, title: "Sports"),
+        ArticleCategory.init(id: 2, title: "Art"),
+        ArticleCategory.init(id: 3, title: "Politics"),
+        ArticleCategory.init(id: 4, title: "Fshion"),
+        ArticleCategory.init(id: 5, title: "Economics"),
+        ArticleCategory.init(id: 6, title: "Cinema")
     ]
-    @Published var selectedNewsCategories: [NewsCategory] = []
+    @Published var selectedNewsCategories: [ArticleCategory] = []
     @Published var selectedCountry = Country(id: -1, name: "Choose one")
     @Published var showCountryError: Bool = false
     @Published var showNewsCategoryError: Bool = false
+    @Published var shouldOpenHome : Bool = false
 
 
     func handleCategorySelection(index : Int){
@@ -55,7 +56,7 @@ class OnboardingViewModel: ObservableObject {
     func submitAction() {
         if validate() {
             saveSelectedCountryAndCategories()
-            // open home
+            shouldOpenHome.toggle()
         }
     }
 
