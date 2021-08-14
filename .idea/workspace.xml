@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c515f51-85d8-45ff-be5e-a7bb572e09d0" name="Default Changelist" comment="" />
+    <list default="true" id="5c515f51-85d8-45ff-be5e-a7bb572e09d0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/NewsApp.xcodeproj/xcuserdata/amrahmed.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/NewsApp.xcodeproj/xcuserdata/amrahmed.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsApp.xcworkspace/xcuserdata/amrahmed.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/NewsApp.xcworkspace/xcuserdata/amrahmed.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/amrahmed.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/amrahmed.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +95,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3255000" />
+    <option name="totallyTimeSpent" value="3331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="802" extended-state="6" />
