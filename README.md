@@ -13,4 +13,7 @@ Simple application that fetches some news / articles from network with the abili
 ## Screenshots
 <p float = "left">
 <img src="https://raw.githubusercontent.com/amr-sayed/NewsApp/master/.github:images/1.png" width="200" alt="sample1">
+<img src="https://raw.githubusercontent.com/amr-sayed/NewsApp/master/.github:images/2.png" width="200" alt="sample2">
+<img src="https://raw.githubusercontent.com/amr-sayed/NewsApp/master/.github:images/3.png" width="200" alt="sample3">
+<img src="https://raw.githubusercontent.com/amr-sayed/NewsApp/master/.github:images/4.png" width="200" alt="sample4">
 </p>
